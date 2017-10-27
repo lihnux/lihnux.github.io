@@ -1,4 +1,4 @@
-$.ajax({ url: "test.csv", success: function(file_content) {
+$.ajax({ url: "config.json", success: function(file_content) {
     console.log(file_content);
   }
 });
